@@ -1,0 +1,35 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="generator" content=
+              "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+        <meta charset="UTF-8" />
+
+        <title>Calendar</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="buttonHolder">
+                <button class="button previous" onclick="previous()">&#8249;</button>
+            </div>
+
+            <div class="container-calendar" id="year">
+                <span id="month"></span>
+
+                <h3 id="monthAndYear"></h3>
+
+                <table class="table-calendar" id="calendar">
+                    <thead id="thead-month"></thead>
+
+                    <tbody id="calendar-body"></tbody>
+                </table>
+            </div>
+
+            <div class="buttonHolder">
+                <button class="button next" onclick="next()">&#8250;</button>
+            </div>
+        </div><script src="app.js" type="text/javascript">
+        </script>
+    </body>
+</html>
