@@ -1,2 +1,2 @@
 # Calendar
-simple calendar HTML/CSS/JS
+simple calendar using HTML/CSS/JS, to run just download or clone and run in browser.
